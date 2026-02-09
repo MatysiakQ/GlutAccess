@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>GlutAccess</AssemblyName>
+    <RootNamespace>GlutAccess</RootNamespace>
+    <Version>1.1.0</Version>
+    <Authors>Ty</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Exiled.API">
+      <HintPath>References\Exiled.API.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Exiled.Events">
+      <HintPath>References\Exiled.Events.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>References\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
